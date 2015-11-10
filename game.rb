@@ -5,7 +5,7 @@ class Game
     @players = []
   end
 
-  # def add_player(new_player)
+  # def add_player(player_name)
 
   # def play_game
     # - Each round, randomly assign one player a point.
