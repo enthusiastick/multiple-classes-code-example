@@ -1,5 +1,5 @@
-require 'pry'
-require_relative 'player'
+require "pry"
+require_relative "player"
 
 class Game
   attr_reader :players
@@ -33,7 +33,3 @@ class Game
     puts "#{lucky_player.name} now has #{lucky_player.points} points!"
   end
 end
-
-g = Game.new
-g.add_player("Justin")
-g.play_game
